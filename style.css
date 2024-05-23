@@ -1,0 +1,90 @@
+body {
+    background-image: url('fondoInicio.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff; /* blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* negro con transparencia */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* sombra más oscura */
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.form h2 {
+    text-align: center;
+    color: #ffffff; /* blanco */
+    margin-bottom: 20px; /* Separación adicional */
+}
+
+.result-box {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* blanco con transparencia */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3); /* sombra blanca con transparencia */
+}
+
+.result-box h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #ffffff; /* blanco */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff; /* blanco */
+}
+
+input[type="number"] {
+    width: calc(100% - 22px); /* Considera el ancho del borde */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff; /* blanco */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1); /* blanco con transparencia */
+    color: #ffffff; /* blanco */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffcc00; /* amarillo más oscuro */
+    color: #000000; /* negro */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffbb00; /* amarillo oscuro */
+}
+
+#results {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff; /* blanco */
+}
+
+.result-text {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* blanco con transparencia */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3); /* sombra blanca con transparencia */
+}
